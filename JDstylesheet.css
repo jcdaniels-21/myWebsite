@@ -53,6 +53,7 @@ body{
 }
 
 .wide-text{letter-spacing:4px}
+.wide-text2{letter-spacing:2px}
 
 .bio{text-align:justify!important}
 
@@ -130,4 +131,41 @@ body{
 
 #gmailLogo :hover{
   color: #EA4335;
+}
+
+.Header {
+  text-align: center;
+  padding-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#WIP {
+  padding-top: 20%;
+}
+
+.workInProgress {
+  animation: 10000ms ease-in-out infinite color-change;
+}
+
+@keyframes color-change {
+  0% {
+    color: teal;
+  }
+  20% {
+    color: black;
+  }
+  40% {
+    color: indianred;
+  }
+  60% {
+    color: violet;
+  }
+  80% {
+    color: green;
+  }
+  100% {
+    color: teal;
+  }
 }
