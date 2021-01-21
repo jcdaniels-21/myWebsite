@@ -57,7 +57,10 @@ body{
 
 .bio{text-align:justify!important}
 
-
+.subheader{text-align: center;
+ font-size: medium;
+ font-weight: bold;
+}
 
 .footer {
   position: fixed;
@@ -168,4 +171,52 @@ body{
   100% {
     color: teal;
   }
+}
+
+.linkedinSocial {
+  max-width: 100%;
+}
+
+#phone {
+  padding-top: 1%;
+  animation: 10000ms ease-in-out infinite color-changeP;
+}
+
+@keyframes color-changeP {
+  0% {
+    color: black;
+  }
+  100% {
+    color: #00539CFF;
+  }
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+button[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
 }
