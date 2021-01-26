@@ -288,3 +288,27 @@ input[type=submit]:hover {
 #lastblip {
   margin-bottom: 5%;
 }
+
+.tictactoeBoard {
+  height: 600px;
+  width: 300px;
+  position: relative;
+  left: 20vw;
+}
+
+table#gameBoard {
+ width: 300px;
+ height: 300px;  
+}
+
+td {border: 2px solid lightblue; padding: 10px; font-size: 64pt; font-family: Courier; text-align: center;}
+
+#newGameButton {
+width: 100%;
+}
+
+#turnInfo {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18pt;
+}
